@@ -38,6 +38,14 @@ sudo apt-get install tclsh pkg-config cmake libssl-dev build-essential
 ./configure
 make
 ```
+### Raspberry Pi
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install tk pkg-config cmake libssl-dev build-essential
+./configure
+make
+```
 ### CentOS 7
 ```
 sudo yum update
